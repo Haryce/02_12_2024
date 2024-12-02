@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int cub(int num) {
+int Cub(int num) {
     return num * num * num;
 }
 int main() {
@@ -8,6 +8,6 @@ int main() {
     int g;
     cout << "Введите число для возвращения в куб: \n";
     cin >> g;
-    cout << cub(g);
+    cout << Cub(g);
     return 0;
 }
