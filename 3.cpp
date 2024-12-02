@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int prost(int n) {
+int Prost(int n) {
     if (n <= 1) return 0;
     for (int i = 2; i * i <= n; i++) {
         if (n % i == 0) return 0;
@@ -12,7 +12,7 @@ int main() {
     int g;
     cout << "Введите число для проверки его на простое: \n";
     cin >> g;
-    if (prost(g)) {
+    if (Prost(g)) {
         cout << "\nЧисло простое";
     }
     else {
