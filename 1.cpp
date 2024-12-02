@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void pryamougl (int h, int w){
+void Pryamougl (int h, int w){
 for (int i = 0; i < h; ++i) {
     for (int j = 0; j < w; ++j) {
         cout << "*"; 
@@ -16,6 +16,6 @@ int main() {
     cin >> N;
     cout << "Введите ширину прямоугольника (K): ";
     cin >> K;
-    pryamougl(N, K);
+    Pryamougl(N, K);
     return 0;
 }
