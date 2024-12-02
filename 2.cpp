@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int factorial(int n) {
+int Factorial(int n) {
     int res = 1;
     for (int i = 1; i <= n; ++i) {
         res *= i;
@@ -12,6 +12,6 @@ int main() {
     int g;
     cout << "введите число для вычисления факториала: \n";
     cin >> g;
-    cout << factorial(g);
+    cout << Factorial(g);
     return 0;
 }
